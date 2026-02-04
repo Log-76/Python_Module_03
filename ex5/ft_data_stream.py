@@ -1,15 +1,16 @@
 import random
+from typing import Generator
 import time
 
 
-def event():
+def event() -> Generator:
     for i in range(1000):
         level = random.randint(1, 20)
         n = random.choice(["killed monster", "found treasure", "leveled up"])
         yield (n, level)
 
 
-def fibonacci():
+def fibonacci() -> Generator:
     """Générateur infini de la suite de Fibonacci"""
     a, b = 0, 1
     while True:
@@ -17,7 +18,7 @@ def fibonacci():
         a, b = b, a + b
 
 
-def primes():
+def primes() -> Generator:
     """Générateur infini de nombres premiers"""
     yield 2  # Premier nombre premier
     n = 3
