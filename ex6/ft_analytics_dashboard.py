@@ -5,8 +5,7 @@ data = {"alice": {"score": 2300, "actif": True, "achi": 5, "achive":
                 ["level_10", "first_blood", "explorer"]},
         "charlie": {"score": 2150, "actif": True, "achi": 7, "achive":
                     ["level_10", "hundred_kills", "warrior", "berserker",
-                     "flawless_victory", "first_kill",
-                     "critical_striker",]},
+                     "flawless_victory", "first_kill", "critical_striker"]},
         "diana": {"score": 2050, "actif": False, "achi": 2, "achive":
                   ["level_10", "first_kill"]}}
 

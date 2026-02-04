@@ -25,7 +25,7 @@ print(f"Most abundan: potion ({inventaire.get('potion')})")
 print(f"Least abundant: sword ({inventaire.get('sword')})")
 print()
 print("=== Item Categories ===")
-print("Moderate: {'potion' :", inventaire["potion"], "}")
+print("Moderate: {'potion' :", inventaire.get('potion', 0), "}")
 
 temps = {}
 for cle, valeur in inventaire.items():
